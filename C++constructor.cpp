@@ -1,4 +1,4 @@
-//https://wikidocs.net/17145 (Âü°í »çÀÌÆ®)
+//https://wikidocs.net/17145 (ì°¸ê³  ì‚¬ì´íŠ¸)
 
 
 //#include <iostream>
@@ -10,7 +10,7 @@
 //    int num1;
 //    int num2;
 //public:
-//    SimpleClass(int n1 = 0, int n2 = 0)  // »ı¼ºÀÚ 4
+//    SimpleClass(int n1 = 0, int n2 = 0)  // ìƒì„±ì 4
 //    {
 //        num1 = n1;
 //        num2 = n2;
@@ -26,23 +26,23 @@
 //
 //int main(void)
 //{
-//    SimpleClass sc1;  // »ı¼ºÀÚ 4 È£Ãâ. µğÆúÆ® °ª »ç¿ë
+//    SimpleClass sc1;  // ìƒì„±ì 4 í˜¸ì¶œ. ë””í´íŠ¸ ê°’ ì‚¬ìš©
 //    sc1.Show();
 //
-//    SimpleClass sc2(100);  // »ı¼ºÀÚ 4 È£Ãâ, Ã¹ ¸â¹ö °ª ¼¼ÆÃ
+//    SimpleClass sc2(100);  // ìƒì„±ì 4 í˜¸ì¶œ, ì²« ë©¤ë²„ ê°’ ì„¸íŒ…
 //    sc2.Show();
 //
-//    SimpleClass sc3(100, 200);  // »ı¼ºÀÚ 4 È£Ãâ, µÎ ¸â¹ö ¸ğµÎÀÇ °ª ¼¼ÆÃ
+//    SimpleClass sc3(100, 200);  // ìƒì„±ì 4 í˜¸ì¶œ, ë‘ ë©¤ë²„ ëª¨ë‘ì˜ ê°’ ì„¸íŒ…
 //    sc3.Show();
 //
-//    system("pause");  // VC++ ¿¡¼­¸¸ »ç¿ë
+//    system("pause");  // VC++ ì—ì„œë§Œ ì‚¬ìš©
 //
 //    return 0;
 //}
 
 
 
-////µ¿ÀûÇÒ´ç
+////ë™ì í• ë‹¹
 //#include <iostream>
 //using namespace std;
 //
@@ -52,7 +52,7 @@
 //    int num1;
 //    int num2;
 //public:
-//    SimpleClass(int n1 = 0, int n2 = 0)  // »ı¼ºÀÚ 4
+//    SimpleClass(int n1 = 0, int n2 = 0)  // ìƒì„±ì 4
 //    {
 //        num1 = n1;
 //        num2 = n2;
@@ -69,7 +69,7 @@
 //int main(void)
 //{
 //    SimpleClass* psc1 = new SimpleClass;
-//    psc1->Show(); // Æ÷ÀÎÅÍ¸¦ ÅëÇÑ °£Á¢ Á¢±Ù
+//    psc1->Show(); // í¬ì¸í„°ë¥¼ í†µí•œ ê°„ì ‘ ì ‘ê·¼
 //
 //    SimpleClass* psc2 = new SimpleClass(100);
 //    psc2->Show();
@@ -79,7 +79,7 @@
 //
 //    delete psc1, psc2, psc3;
 //
-//    system("pause");  // VC++ ¿¡¼­¸¸ »ç¿ë
+//    system("pause");  // VC++ ì—ì„œë§Œ ì‚¬ìš©
 //
 //    return 0;
 //}
@@ -87,7 +87,7 @@
 
 
 
-//Å¬·¡½º ¸â¹ö°¡ Å¬·¡½º ÀÏ ¶§ »ı¼ºÀÚ È£Ãâ ¹ı
+//í´ë˜ìŠ¤ ë©¤ë²„ê°€ í´ë˜ìŠ¤ ì¼ ë•Œ ìƒì„±ì í˜¸ì¶œ ë²•
 ////point.h
 //#ifndef __POINT_H__
 //#define __POINT_H__
@@ -113,8 +113,8 @@
 //
 //using namespace std;
 //
-//// Å¬·¡½º PointÀÇ »ı¼ºÀÚ
-//Point::Point(const int& xpos, const int& ypos)//¡Ú
+//// í´ë˜ìŠ¤ Pointì˜ ìƒì„±ì
+//Point::Point(const int& xpos, const int& ypos)//â˜…
 //{
 //    x = xpos;
 //    y = ypos;
@@ -134,7 +134,7 @@
 //{
 //    if (xpos < 0 || xpos > 100)
 //    {
-//        cout << "¹ş¾î³­ ¹üÀ§ÀÇ °ª Àü´Ş" << endl;
+//        cout << "ë²—ì–´ë‚œ ë²”ìœ„ì˜ ê°’ ì „ë‹¬" << endl;
 //        return false;
 //    }
 //    x = xpos;
@@ -145,7 +145,7 @@
 //{
 //    if (ypos < 0 || ypos > 100)
 //    {
-//        cout << "¹ş¾î³­ ¹üÀ§ÀÇ °ª Àü´Ş" << endl;
+//        cout << "ë²—ì–´ë‚œ ë²”ìœ„ì˜ ê°’ ì „ë‹¬" << endl;
 //        return false;
 //    }
 //    y = ypos;
@@ -154,7 +154,7 @@
 
 
 
-//¸â¹ö ÀÌ´Ï¼È¶óÀÌÀú
+//ë©¤ë²„ ì´ë‹ˆì…œë¼ì´ì €
 //#include <iostream>
 //
 //using namespace std;
@@ -167,7 +167,7 @@
 //    int myMoney;
 //public:
 //    FruitSeller(int price, int num, int money)
-//        : APPLE_PRICE(price), numOfApples(num), myMoney(money) // ¸â¹ö ÀÌ´Ï¼È¶óÀÌÀú ¡Ú
+//        : APPLE_PRICE(price), numOfApples(num), myMoney(money) // ë©¤ë²„ ì´ë‹ˆì…œë¼ì´ì € â˜…
 //    {
 //    }
 //    int  SaleApples(int money)
@@ -179,8 +179,8 @@
 //    }
 //    void ShowSalesResult() const
 //    {
-//        cout << "³²Àº »ç°ú: " << numOfApples << endl;
-//        cout << "ÆÇ¸Å ¼öÀÍ: " << myMoney << endl << endl;
+//        cout << "ë‚¨ì€ ì‚¬ê³¼: " << numOfApples << endl;
+//        cout << "íŒë§¤ ìˆ˜ìµ: " << myMoney << endl << endl;
 //    }
 //};
 //
@@ -191,18 +191,18 @@
 //    int numOfApples;
 //public:
 //    FruitBuyer(int money)
-//        : myMoney(money), numOfApples(0) // ¸â¹ö ÀÌ´Ï¼È¶óÀÌÀú
+//        : myMoney(money), numOfApples(0) // ë©¤ë²„ ì´ë‹ˆì…œë¼ì´ì €
 //    {
 //    }
 //    void BuyApples(FruitSeller& seller, int money)
 //    {
-//        numOfApples += seller.SaleApples(money);  // ¸Ş½ÃÁö Àü´Ş(Message Passing)
+//        numOfApples += seller.SaleApples(money);  // ë©”ì‹œì§€ ì „ë‹¬(Message Passing)
 //        myMoney -= money;
 //    }
 //    void ShowBuyResult() const
 //    {
-//        cout << "ÇöÀç ÀÜ¾×: " << myMoney << endl;
-//        cout << "»ç°ú °³¼ö: " << numOfApples << endl << endl;
+//        cout << "í˜„ì¬ ì”ì•¡: " << myMoney << endl;
+//        cout << "ì‚¬ê³¼ ê°œìˆ˜: " << numOfApples << endl << endl;
 //    }
 //};
 //
@@ -213,12 +213,12 @@
 //    FruitBuyer buyer(5000);
 //    buyer.BuyApples(seller, 2000);
 //
-//    cout << "°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÈ²: " << endl;
+//    cout << "ê³¼ì¼ íŒë§¤ìì˜ í˜„í™©: " << endl;
 //    seller.ShowSalesResult();
-//    cout << "°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÈ²: " << endl;
+//    cout << "ê³¼ì¼ êµ¬ë§¤ìì˜ í˜„í™©: " << endl;
 //    buyer.ShowBuyResult();
 //
-//    system("pause");  // VC++ ¿¡¼­¸¸ ÇÊ¿ä
+//    system("pause");  // VC++ ì—ì„œë§Œ í•„ìš”
 //
 //    return 0;
 //}
